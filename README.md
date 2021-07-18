@@ -49,7 +49,7 @@ public static void Start()
     [...]
     PriorityEffect = new Dictionary<ChangePriority, double>()
     {
-        //                        v Change here the valuesv
+        //                       v  Change here the values  v
         { ChangePriority.ImmediateSave, SAVE_INTERVAL },
         { ChangePriority.UserDataChange, 30 * SECOND },
         { ChangePriority.ImportantUserDataChange, MINUTE },
